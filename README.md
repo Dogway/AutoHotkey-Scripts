@@ -46,18 +46,6 @@ Convert every line in the copied-to-clipboard text file to a %line%.txt file. It
 
 
 
-## Timer Alarm (GUI)
-
-Simple Visual and Audio alarm
-
-
-
-## Train Sets Alarm (GUI)
-
-Audio alarm for an exercise series of X sets and Y reps, with rest time.
-
-
-
 ## EditList fcpxml to Trims
 
 Converts DaVinci Resolve .fcpxml cut edit file to Avisynth legible Trims()
@@ -68,3 +56,15 @@ It works for cuts, but not for logos, and probably either for Fades
 ## Make Folder and Move clipboard over (F4)
 
 Creates a folder and moves copied files (files in clipboard) to new folder
+
+
+
+## Timer Alarm (GUI)
+
+Simple Visual and Audio alarm
+
+
+
+## Train Sets Alarm (GUI)
+
+Audio alarm for an exercise series of X sets and Y reps, with rest time.
