@@ -29,14 +29,14 @@ I also recommend to use this along AltDrag and 7+TaskbarTweaker, and obviously C
 
 ## Multidepth Multifilename Renamer (GUI)
 
-Rename filenames included in a folder and subfolders by a word or Regular Expression command.
+Rename filenames included in a folder and subfolders by a string or Regular Expression.
 
 
 
 ## Multiline Multifile Text Replacer (GUI)
 
-Single line or multiline, single depth or multidepth text replacer.
-You can replace a static piece of text or use a Regular Expression command.
+Single line/multiline, single depth/multidepth text replacer.
+You can replace a static block of text or use a Regular Expression.
 
 
 
@@ -49,19 +49,19 @@ Convert every line in the copied-to-clipboard text file to a %line%.txt file. It
 ## EditList fcpxml to Trims
 
 Converts DaVinci Resolve .fcpxml cut edit file to Avisynth legible Trims()
-It works for cuts, but not for logos, and probably either for Fades
+It works for cuts, but not for logos, and probably either for Fades.
 
 
 
-## Make Folder and Move clipboard over (F4)
+## Make Folder and Move clipboard content over (F4)
 
-Creates a folder and moves copied files (files in clipboard) to new folder
+Creates a folder and moves files in the clipboard to the folder.
 
 
 
 ## Timer Alarm (GUI)
 
-Simple Visual and Audio alarm
+Simple Visual and Audio alarm.
 
 
 

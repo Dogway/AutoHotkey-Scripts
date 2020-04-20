@@ -198,19 +198,19 @@ Return
 ; Invert selection
 ~^i::
 ControlGet, hCtl, Hwnd,, SHELLDLL_DefView1, A
-PostMessage, 0x111, 28706, 0,, % "ahk_id " hCtl ;edit, invert selection
+PostMessage, 0x111, 28706, 0,, % "ahk_id " hCtl
 Return
 
 ; Detail View
 ~!d::
 ControlGet, hCtl, Hwnd,, SHELLDLL_DefView1, A
-PostMessage, 0x111, 28747, 0,, % "ahk_id " hCtl ;view, details
+PostMessage, 0x111, 28747, 0,, % "ahk_id " hCtl
 Return
 
 ; Thumbnail View
 !v::
 ControlGet, hCtl, Hwnd,, SHELLDLL_DefView1, A
-PostMessage, 0x111, 28751, 0,, % "ahk_id " hCtl ;view, details
+PostMessage, 0x111, 28751, 0,, % "ahk_id " hCtl
 Return
 
 
