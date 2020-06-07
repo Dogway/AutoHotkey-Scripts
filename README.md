@@ -11,8 +11,8 @@ I also recommend to use this along AltDrag and 7+TaskbarTweaker, and obviously C
 *   F3 for New Folder
 *   Ctrl+F for Search (With FileSearchEX)
 *   Ctrl+I for Invert Selection
-*   Ctrl+D for Detail View
-*   Ctrl+V for Thumbnail View
+*   Alt+D for Detail View
+*   Alt+V for Thumbnail View
 
 
 **General**
