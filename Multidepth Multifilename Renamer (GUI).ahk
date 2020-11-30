@@ -36,7 +36,7 @@ MsgBox, 4096, ,Sub Cant be Empty!
 SubFolder := sub
 Path := A_ScriptDir . "\" . SubFolder
 
-IF Path = A_ScriptDir
+IF Path = A_ScriptDir . "\"
 {
 MsgBox, 4096, ,Error Path! %path%	
 ExitApp
