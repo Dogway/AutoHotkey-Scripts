@@ -37,7 +37,7 @@ Rename filenames included in a folder and subfolders by a string or Regular Expr
 
 Single line/multiline, single depth/multidepth text replacer.
 You can replace a static block of text or use a Regular Expression.
-
+For more advanced features you might want to look at [grepWin](https://github.com/stefankueng/grepWin).
 
 
 ## Text Line to Text File or Folder (AutoExecute)
