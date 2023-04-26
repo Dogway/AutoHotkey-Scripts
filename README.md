@@ -45,6 +45,11 @@ For more advanced features you might want to look at [grepWin](https://github.co
 Convert every line in the copied-to-clipboard text file to a %line%.txt file. It helps to manage list of files and sorting.
 
 
+## Music Videos NFO creator (GUI)
+Utility to create Music Videos NFO files for Kodi to parse.
+Simply point to a subfolder with all your videos, set Genre, and a placeholder year.
+Might want to further edit the files though.
+
 
 ## EditList fcpxml to Trims
 
