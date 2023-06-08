@@ -57,8 +57,8 @@ Scans a folder recursively to create recovery files of files matching the preset
 Useful to recover files when an HDD is dying and starts to corrupt blocks with reading CRC errors (bitrot).
 Recovery files represent only about 7% of source size so you save quite a bit of HDD space were you to backup the whole file,
 while being safer as a plain old file duplication can also be subject of block corruption.
-[par2cmdline-turbo](https://github.com/animetosho/par2cmdline-turbo)
-[par3cmdline](https://github.com/Parchive/par3cmdline)
+* [par2cmdline-turbo](https://github.com/animetosho/par2cmdline-turbo)
+* [par3cmdline](https://github.com/Parchive/par3cmdline)
 
 
 ## Make Folder and Move clipboard content over (F4)
