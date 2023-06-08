@@ -51,11 +51,14 @@ Simply point to a subfolder with all your videos, set Genre, and a placeholder y
 Might want to further edit the files though.
 
 
-## EditList fcpxml to Trims
+## PAR2+PAR3 Generator (GUI)
 
-Converts DaVinci Resolve .fcpxml cut edit file to Avisynth legible Trims()
-It works for cuts, but not for logos, and probably either for Fades.
-
+Scans a folder recursively to create recovery files of files matching the preset extensions (Video, Software, eBooks, etc)
+Useful to recover files when an HDD is dying and starts to corrupt blocks with reading CRC errors (bitrot).
+Recovery files represent only about 7% of source size so you save quite a bit of HDD space were you to backup the whole file,
+while being safer as a plain old file duplication can also be subject of block corruption.
+[par2cmdline-turbo](https://github.com/animetosho/par2cmdline-turbo)
+[par3cmdline](https://github.com/Parchive/par3cmdline)
 
 
 ## Make Folder and Move clipboard content over (F4)
@@ -73,3 +76,10 @@ Simple Visual and Audio alarm.
 ## Train Sets Alarm (GUI)
 
 Audio alarm for an exercise series of X sets and Y reps, with rest time.
+
+
+
+## EditList fcpxml to Trims
+
+Converts DaVinci Resolve .fcpxml cut edit file to Avisynth legible Trims()
+It works for cuts, but not for logos, and probably either for Fades.
