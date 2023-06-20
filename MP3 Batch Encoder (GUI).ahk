@@ -1,7 +1,7 @@
-﻿SetWorkingDir %A_ScriptDir%
-#SingleInstance, Force
-#Persistent
-
+﻿; MP3 Batch Encoder - AHK Script
+;    Jose Linares -Dogway-
+;        >> https://github.com/Dogway
+;
 ; Advanced and Convenient MP3 Batch encoder
 ;
 ; Useful for Music, to compress to high quality MP3s with IDtags*, ReplayGain2 and keeping the timestamp
@@ -9,6 +9,10 @@
 ; and optionally a new mode MovieNight which compresses the dynamic range while enhancing dialog to make it apt to night sessions.
 ;
 ; * LAME only supports writing to v2.3, so you need to convert to v2.4 later in Mp3tag, as well as for adding the compilation, disc number and cover image tags.
+
+SetWorkingDir %A_ScriptDir%
+#SingleInstance, Force
+#Persistent
 
 Gui, +AlwaysOnTop
 Gui, Add, Text, , RSGAIN executable path:
