@@ -61,6 +61,16 @@ while being safer as a plain old file duplication can also be subject of block c
 * [par3cmdline](https://github.com/Parchive/par3cmdline)
 
 
+## MP3 Batch Encoder (GUI)
+
+Takes the labourious and complex task of encoding, tagging and adding ReplayGain2 tags for audio files into a one click solution.
+It also works for audio tracks in video files, downmixing when necessary and normalizing to EBU R128 Loudness Target if chosen,
+or alternatively a Night mode with a more compressed Loudness Range and adding more weight to the center dialog channel.
+* [ffmpeg](https://www.gyan.dev/ffmpeg/builds/)
+* [rsgain](https://github.com/complexlogic/rsgain)
+* [lame](https://sourceforge.net/projects/lame/files/)
+
+
 ## Make Folder and Move clipboard content over (F4)
 
 Creates a folder and moves files in the clipboard to the folder.
