@@ -22,13 +22,13 @@ Gui, Add, Edit, -Wrap r1 x+15 y25 w445 vepar2, %A_ScriptDir%\par2.exe
 Gui, Add, Text,, PAR3 executable path:
 Gui, Add, Checkbox, x15 y70 vcpar3 Checked, Incl`.
 Gui, Add, Edit, -Wrap r1 x+15 y70 w445 vepar3, %A_ScriptDir%\par3.exe
-Gui, Add, Text, x15 , Enter Scan Folder Path:
+Gui, Add, Text, x15 , Enter Scan Folder Path (Recursive):
 Gui, Add, Edit, -Wrap r1 x15 vsub w500
 Gui, Add, Text,, Enter Save Folder Path:
 Gui, Add, Edit, -Wrap r1 x15 vgen w500
 Gui, Add, Button, Default w+100, OK
 Gui, Add, Button, x+20 w+100, Cancel
-Gui, Add, DropDownList, x+30 y190 w90 h20 gPresets vEntry w100 h200, Video|Games|Software|eBooks|Archives|
+Gui, Add, DropDownList, x+30 y190 w90 h20 gPresets vEntry w100 h200, Video||Games|Software|eBooks|Archives|
 Gui, Add, Checkbox, x+15 y195 vnm Checked, Excl`. '`.nomedia' folders
 Gui, Show,, PAR2+PAR3 Batch Recovery File Generator
 
@@ -44,7 +44,7 @@ If (Entry = "Software")
 If (Entry = "eBooks")
     Fmt := { cbr: 1, cbz: 1, cbt: 1, cb7: 1, pdf: 1, djvu: 1, djv: 1, epub: 1, epub3: 1, azw: 1, azw3: 1, mobi: 1, kfx: 1, prc: 1, fb2: 1, warc: 1, wacz: 1 }
 If (Entry = "Compressed")
-    Fmt := { zip: 1, 7z: 1, rar: 1, part: 1, tar: 1, gz: 1, iso: 1, dmg: 1, zst: 1 }
+    Fmt := { zip: 1, 7z: 1, rar: 1, part: 1, tar: 1, gz: 1, iso: 1, dmg: 1, img: 1, zst: 1 }
 Return
 
 
@@ -54,12 +54,12 @@ Gui, Submit, nohide
 
 If sub =
 {
-    MsgBox, 4096, ,Folder Path be Empty!
+    MsgBox, 4096, ,Folder Path can't be Empty!
     ExitApp
 }
 If gen =
 {
-    MsgBox, 4096, ,Folder Path be Empty!
+    MsgBox, 4096, ,Folder Path can't be Empty!
     ExitApp
 }
 
@@ -78,7 +78,7 @@ Loop, %Path%\*.*,0,1 ; loop through all folders and subfolders
 
     If (Fmt[ext]) {
 
-        if (A_LoopFileSizeMB < 512)
+        if      (A_LoopFileSizeMB < 512)
         PER := 15
         else if (A_LoopFileSizeMB < 3072)
         PER := 10
