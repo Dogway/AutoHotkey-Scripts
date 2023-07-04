@@ -44,7 +44,7 @@ If (Entry = "Software")
 If (Entry = "eBooks")
     Fmt := { cbr: 1, cbz: 1, cbt: 1, cb7: 1, pdf: 1, djvu: 1, djv: 1, epub: 1, epub3: 1, azw: 1, azw3: 1, mobi: 1, kfx: 1, prc: 1, fb2: 1, warc: 1, wacz: 1 }
 If (Entry = "Compressed")
-    Fmt := { zip: 1, 7z: 1, rar: 1, part: 1, tar: 1, gz: 1, iso: 1, dmg: 1, img: 1, zst: 1 }
+    Fmt := { zip: 1, 7z: 1, rar: 1, part: 1, tar: 1, gz: 1, iso: 1, dmg: 1, img: 1, zst: 1, tzst: 1, tzstd: 1 }
 Return
 
 
