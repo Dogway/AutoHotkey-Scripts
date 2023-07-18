@@ -41,13 +41,13 @@ Gui, Show,, MP3 Batch Encoder
 ; Music (-18)
 LR := [ "-18", "18" ]
 ; (Audio Lossless)
-Fmt := { wav: 1, wv: 1, pcm: 1, raw: 1, rf64: 1, aiff: 1, flac: 1, ape: 1, alac: 1, tak: 1, tta: 1, thd: 1, ofr: 1, wmal: 1 }
+Fmt := { wav: 1, wv: 1, pcm: 1, raw: 1, rf64: 1, aiff: 1, flac: 1, ape: 1, alac: 1, tak: 1, tta: 1, thd: 1, ofr: 1, wmal: 1, laf: 1 }
 Return
 
 Presets:
 Gui, Submit, NoHide
 If (Entry = "Audio Lossy")
-    Fmt := { m4a: 1, aac: 1, wma: 1, mka: 1, ogg: 1, oga: 1, ac3: 1, eac3: 1, dts: 1, mp2: 1, mpa: 1, rma: 1, ra: 1, gsm: 1, au: 1, mpc: 1, opus: 1 }
+    Fmt := { m4a: 1, aac: 1, wma: 1, mka: 1, ogg: 1, oga: 1, ac3: 1, eac3: 1, ec3: 1, dts: 1, mp2: 1, mpa: 1, weba: 1, rma: 1, ra: 1, gsm: 1, au: 1, mpc: 1, opus: 1 }
 If (Entry = "Video")
     Fmt := { mkv: 1, avi: 1, mp4: 1, mpg: 1, mpeg: 1, mpe: 1, m2v: 1, m2ts: 1, ts: 1, ogm: 1, wmv: 1, mov: 1, asf: 1, ram: 1, rm: 1, flv: 1, vob: 1 }
 Return
