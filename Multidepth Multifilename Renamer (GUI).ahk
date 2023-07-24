@@ -22,7 +22,7 @@ Gui, Add, Text,, Enter replacement text:
 Gui, Add, Edit, vReplacement R8 w500
 Gui, Add, Button, Default w+100, OK
 Gui, Add, Button, x+20 w+100, Cancel
-Gui, Show,, Replace Paragraphs
+Gui, Show,, Multifilename Renamer
 return
 
 ButtonOK:
