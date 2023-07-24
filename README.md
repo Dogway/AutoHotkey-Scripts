@@ -31,7 +31,7 @@ I also recommend to use this along AltDrag and 7+TaskbarTweaker, and obviously C
 
 Rename filenames included in a folder and subfolders by a string or Regular Expression.
 
-![](https://github.com/Dogway/AutoHotkey-Scripts/blob/master/screenshots/Multidepth Multifilename Renamer \(GUI\).png)
+![](https://github.com/Dogway/AutoHotkey-Scripts/blob/master/screenshots/Multidepth%20Multifilename%20Renamer%20\(GUI\).png)
 
 
 ## Multiline Multifile Text Replacer (GUI)
@@ -51,7 +51,7 @@ Utility to create Music Videos NFO files for Kodi to parse.
 Simply point to a subfolder with all your videos, set Genre, and a placeholder year.
 Might want to further edit the files though.
 
-![](https://github.com/Dogway/AutoHotkey-Scripts/blob/master/screenshots/Music Videos NFO creator \(GUI\).png)
+![](https://github.com/Dogway/AutoHotkey-Scripts/blob/master/screenshots/Music%20Videos%20NFO%20creator%20\(GUI\).png)
 
 
 ## PAR2+PAR3 Generator (GUI)
@@ -63,7 +63,7 @@ while being safer as a plain old file duplication can also be subject of block c
 * [par2cmdline-turbo](https://github.com/animetosho/par2cmdline-turbo)
 * [par3cmdline](https://github.com/Parchive/par3cmdline)
 
-![](https://github.com/Dogway/AutoHotkey-Scripts/blob/master/screenshots/PAR2+PAR3 Generator \(GUI\).png)
+![](https://github.com/Dogway/AutoHotkey-Scripts/blob/master/screenshots/PAR2+PAR3%20Generator%20\(GUI\).png)
 
 ## MP3 Batch Encoder (GUI)
 
@@ -74,7 +74,7 @@ or alternatively a Night mode with a more compressed Loudness Range and adding m
 * [rsgain](https://github.com/complexlogic/rsgain)
 * [lame](https://sourceforge.net/projects/lame/files/)
 
-![](https://github.com/Dogway/AutoHotkey-Scripts/blob/master/screenshots/MP3 Batch Encoder \(GUI\).png)
+![](https://github.com/Dogway/AutoHotkey-Scripts/blob/master/screenshots/MP3%20Batch%20Encoder%20\(GUI\).png)
 
 ## Make Folder and Move clipboard content over (F4)
 
