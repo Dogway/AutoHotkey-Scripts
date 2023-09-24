@@ -28,7 +28,7 @@ Gui, Add, Text,, Enter Save Folder Path:
 Gui, Add, Edit, -Wrap r1 x15 vgen w500
 Gui, Add, Button, Default w+100, OK
 Gui, Add, Button, x+20 w+100, Cancel
-Gui, Add, DropDownList, x+30 y190 w90 h20 gPresets vEntry w100 h200, Video||Games|Software|eBooks|Archives|
+Gui, Add, DropDownList, x+30 y190 w90 h20 gPresets vEntry w100 h200, Video||Games|Software|eBooks|Compressed|
 Gui, Add, Checkbox, x+15 y195 vnm Checked, Excl`. '`.nomedia' folders
 Gui, Show,, PAR2+PAR3 Batch Recovery File Generator
 
@@ -44,7 +44,7 @@ If (Entry = "Software")
 If (Entry = "eBooks")
     Fmt := { cbr: 1, cbz: 1, cbt: 1, cb7: 1, pdf: 1, djvu: 1, djv: 1, epub: 1, epub3: 1, azw: 1, azw3: 1, mobi: 1, kfx: 1, prc: 1, fb2: 1, warc: 1, wacz: 1 }
 If (Entry = "Compressed")
-    Fmt := { zip: 1, zipx: 1, 7z: 1, rar: 1, arc: 1, part: 1, tar: 1, gz: 1, iso: 1, dmg: 1, img: 1, zst: 1, tzst: 1, tzstd: 1, doi: 1, br: 1, bz2: 1, lz: 1, lz4: 1, lzma: 1, rz: 1, xz: 1, ace: 1 }
+    Fmt := { zip: 1, zipx: 1, 7z: 1, rar: 1, arc: 1, part: 1, tar: 1, gz: 1, iso: 1, dmg: 1, img: 1, zst: 1, tzst: 1, tzstd: 1, zar: 1, doi: 1, br: 1, bz2: 1, lz: 1, lz4: 1, lzma: 1, rz: 1, xz: 1, ace: 1 }
 Return
 
 
